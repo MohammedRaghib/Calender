@@ -1,0 +1,55 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #707070;
+}
+
+th {
+    background-color: #2a623d;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f0c75e;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #707070;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #eeba30;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d3a625;
+}
